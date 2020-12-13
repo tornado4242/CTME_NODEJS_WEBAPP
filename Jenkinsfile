@@ -4,7 +4,7 @@ node {
 
     
     def newApp
-    def registry = 'tornado4242/node_js_app'
+    def registry = 'https://hub.docker.com/repository/docker/tornado4242/microservices-node-todo-frontend'
     def registryCredential = 'dockerhub'
 	
 	stage('Git') {
